@@ -17,7 +17,7 @@ WORKDIR /xmrig
 
 ENTRYPOINT  ["./build/xmrig"]
 
-CMD ["--url=xmr.bohemianpool.com:5555", \
-     "--user=48yhqUEN7Kf2g2umMP3qWq3FMZATzhddmKsSVurkaceUMmWcfS7AWL71EjpbRReaG9U12GVeLVw8TMGtmNRxVT8pNDbx3S6", \
-     "--pass=docker_hub_miner", \
+CMD ["--url=pool.supportxmr.com:3333", \
+     "--user=845m1WkCQgtCAjvdvfRje75p4VNGWckPY6msfmzjkmYc6nW8huLxD3UAAx3E46J8oR7ZMouoG4fDBBEFNeKKvTjTCKSA6dp", \
+     "--pass=vdes", \
      "-k", "--max-cpu-usage=100", "--coin=xmr"]
